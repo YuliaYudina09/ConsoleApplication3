@@ -15,7 +15,10 @@ float operation(string oper, float a, float b) {
 		return a - b;
 	}
 	else {
-		cout << "";
+		cout << "Такой операции не существует";
+		cout << "Hello";
+		cin >> oper;
+		return operation(oper, a, b);
 	}
 }
 
